@@ -1,0 +1,434 @@
+body{
+    overflow-x: hidden;
+}
+.father-cont{
+    width: 100vw;
+    height: 100vh;
+
+    .big-cont{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conainer{
+        width: 1260px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin: auto;
+    }
+    .home-page-img{
+        margin: auto;
+    }
+    .home-page{
+        list-style: none;
+        display: flex;
+        margin-left: 200px;
+        margin-top: -30px;
+    }   
+    .page{
+        color: white;
+        margin-left: 40px;
+        font-family: 'Public Sans';
+    }
+    .menu-link{
+        color:  #36536B;
+        text-decoration: none;
+    }
+    .menu-link:hover{
+        color: black;
+    }
+    .round{
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        opacity: 40%;
+        margin-left: 800px;
+        margin-top: -40px;
+        z-index: -1;
+    }
+    .home-page-button{
+        position: relative;
+        width: 170px;
+        height: 45px;
+        background: #BA4270;
+        color: white;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        margin-left: 1100px;
+        margin-top: -210px;
+        z-index: 5;
+    }
+    .home-page-button:hover{
+        background: #DA6D97;
+    } 
+    
+    .menu-text{
+        font-family: 'DM Serif Display';
+        font-size: 70px;
+        color: #36536B;
+        margin-top: 160px;
+    }  
+    .img-cont{
+        margin-top: -250px;
+    }
+    .iphone{
+        width: 400px;
+        height: 1000px;
+        margin-left: 850px;
+        margin-top: -450px;
+        z-index: 10;
+    }
+    .form-1{
+        margin-top: 50px;
+    }
+    .input-1{
+        position: absolute;
+        width: 250px;
+        height: 45px;
+        background: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        text-align: center;
+        text-align: start;
+        font-family: 'Public Sans';
+    }
+    .int-button-ferst{
+        position: relative;
+        width: 170px;
+        height: 48px;
+        background: #BA4270;
+        border-radius: 24px;
+        margin-left: 180px;
+        color: white;
+        font-family: 'Public Sans';
+    }
+    .int-button-ferst:hover{
+        background: #DA6D97;
+    }
+    .quesion{
+        color: #6C8294;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    b{
+        color: #6C8294;
+    }
+    .cont-about{
+        width: 1260px;
+        height: 470px;
+        background: #1B262F;
+        margin-top: -150px;
+    }
+    .cont-text-1{
+        font-family: 'DM Serif Display';
+        font-size: 50px;
+        color: white;
+        margin-top: -300px;
+        margin-left: 65px;
+    }
+    .cont-lorem{
+        font-family: 'Public Sans';
+        font-size: 15px;
+        color: white;
+        margin-left: 65px;
+        margin-top: 25px;
+        line-height: 30px;
+    }
+    .cont-button-2{
+        width: 125px;
+        height: 45px;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        border: 1px solid #FBFCFE;
+        box-sizing: border-box;
+        border-radius: 24px;
+        color: white;
+        background: #1B262F;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+    .cont-button-2:hover{
+        background-color: white;
+        color: #1B262F;
+    }
+    .img-div-2{
+        margin-left: 700px;
+        margin-top: -220px;
+    }
+    .Microsoft{
+        margin-left: 50px;
+    }
+    .Hewlet{
+        margin-left: 50px;
+    }
+    .img-div-3{
+        margin-left: 700px;
+        margin-top: 55px;
+    }
+    .Google{
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    .Nvidia{
+        margin-left: 50px;
+    }
+    .Code{
+        margin-top: 70px;
+    }
+    .cont-name-3{
+        margin-left: 700px;
+        font-family: 'DM Serif Display';
+        font-size: 45px;
+        margin-top: -300px;
+    }
+    .cont-lorem-3{
+        margin-left: 700px;
+        font-family: 'Public Sans';
+        font-size: 15px;
+        margin-top: 25px;
+        line-height: 25px;
+    }
+    .cont-name{
+        font-family: 'DM Serif Display';
+        font-size: 45px;
+        margin-top: 300px;
+        color: #36536B;
+        margin-left: 70px;
+    }
+    .cont-lorem-4{
+        font-family: 'Public Sans';
+        font-size: 15px;
+        color: #36536B;
+        margin-left: 70px;
+    }
+    .moon{
+        position: absolute;
+        height: 600px;
+        margin-left: 1010px;
+        margin-top: -300px;
+    }
+    .telephone{
+        position: relative;
+        height: 500px;
+        margin-left: 950px;
+        margin-top: -250px;
+    }
+    .phone-2{
+        position: absolute;
+        height: 500px;
+        margin-left: 700px;
+        margin-top: -505px;
+    }
+    .container-2{
+        width: 380px;
+        height: 300px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .meshok{
+        margin-left: 140px;
+    }
+    .invition{
+        margin-left: 150px;
+    }
+    .kashelek{
+        margin-left: 150px;
+    }
+    .img-name-3{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Public Sans';
+        margin-top: 30px;
+    }   
+    .img-lorem-3{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Public Sans';
+        margin-top: 15px;
+    }
+    .int-taxt{
+        font-family: 'DM Serif Display';
+        font-size: 45px;
+        color: #36536B;
+    }
+    .form-2{
+        margin-top: -50px;
+        margin-left: 780px;
+    }
+    .input-2{
+        position: absolute;
+        width: 250px;
+        height: 45px;
+        background: #FBFCFE;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        text-align: center;
+        text-align: start;
+        font-family: 'Public Sans';
+    }
+    .int-button-second{
+        position: relative;
+        width: 170px;
+        height: 48px;
+        background: #BA4270;
+        border-radius: 24px;
+        margin-left: 180px;
+        color: white;
+        font-family: 'Public Sans';
+    }
+    .int-button-second:hover{
+        background: #DA6D97;
+    }
+    .end-cont{
+        width: 100%;
+        height: 100px;
+        margin-top: 100px;
+        background-color: #1B262F;
+    }
+    .page-2{
+        margin-top: 35px;
+        margin-left: 100px;
+    }
+    .home-page-2{
+        list-style: none;
+        display: flex;
+        margin-left: 300px;
+        margin-top: -30px;
+    }   
+    .page-3{
+        color: white;
+        margin-left: 40px;
+        font-family: 'Public Sans';
+    }
+    .menu-link-2{
+        color:  grey;
+        text-decoration: none;
+    }
+    .menu-link-2:hover{
+        color:#FBFCFE;
+    }
+    .moon-2{
+        position: absolute;
+        margin-left: 870px;
+        margin-top: -66px;
+    }
+    #icon{
+        position: relative;
+        color: white;
+        margin-left: 1000px;
+        margin-top: -50px;
+        transform: translateY(-20px);
+    }
+    #icon-1{
+        position: relative;
+        color: white;
+        transform: translateY(-20px);
+    }
+    #icon-2{
+        position: relative;
+        color: white;
+        transform: translateY(-20px);
+    }
+    #icon:hover{
+        color: #DA6D97;
+    }
+    #icon-1:hover{
+        color: #DA6D97;
+    }
+    #icon-2:hover{
+        color: #DA6D97;
+    }
+}
+@media screen and ( max-width: 768px) {
+
+    .cont-about{
+        position: relative;
+        top: 100px;
+        height: 500px;
+    
+        &__div{
+            flex-direction:column-reverse;
+            justify-content: center
+        }
+    
+        &__aboute{
+            top: 90px;
+            text-align: center;
+        }
+    
+        &__aboute{
+            margin: 0 auto;
+        }
+    
+        &__img-div-2{
+            top: 30px;
+            left: auto;
+            margin: 0px auto;
+        }
+        &__img-div-3{
+            top: 30px;
+            left: auto;
+            margin: 0px auto;
+        }
+    }
+    }
+    
+    @media screen and ( max-width: 425px) /* for phones */ {
+    
+    .cont-about{
+        height: 620px;
+        background-color: red;
+    
+        &__tesla{
+            margin: 13px 3px;
+        }
+        &__Microsoft{
+            margin: 13px 3px;
+        }
+        &__Hewlet{
+            margin: 13px 3px;
+        }
+        &__Oracle{
+            margin: 13px 3px;
+        }
+        &__Google{
+            margin: 13px 3px;
+        }
+        &__Nvidia{
+            margin: 13px 3px;
+        }
+        &__{
+            font-size: 32px;
+        }
+    
+    }
+    }
+    @media screen and (max-width:768px) /* for tablets */ {
+        .container-2{
+            margin-top: 300px!important;
+        }
+    }
+    
+    @media screen and (max-width:425px) /*for phones */{
+        .container-2{
+            margin-top: 300px!important;
+
+            &__2{
+                flex-direction: column;
+                
+            }
+    
+            & p{
+                margin-bottom: 30px;
+                font-size: 10px;
+            }
+        }
+    }
+    
+
+
